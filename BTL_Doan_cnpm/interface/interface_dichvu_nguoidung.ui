@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>701</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,80);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>699</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>30</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#fff;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>DỊCH VỤ</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_doan_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>219</y>
+       <width>221</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Icon &amp; image/Screenshot 2025-09-23 at 22.00.45.png</normaloff>../Icon &amp; image/Screenshot 2025-09-23 at 22.00.45.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>250</width>
+       <height>265</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_nuoc_2">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>219</y>
+       <width>221</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Icon &amp; image/Screenshot 2025-09-23 at 20.48.28.png</normaloff>../Icon &amp; image/Screenshot 2025-09-23 at 20.48.28.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>236</width>
+       <height>227</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_khac_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>219</y>
+       <width>221</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Icon &amp; image/Screenshot 2025-09-23 at 22.19.22.png</normaloff>../Icon &amp; image/Screenshot 2025-09-23 at 22.19.22.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>228</width>
+       <height>250</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_doan">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>420</y>
+       <width>222</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>ĐỒ ĂN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_nuoc">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>419</y>
+       <width>222</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>NƯỚC UỐNG</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_khac">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>419</y>
+       <width>222</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>KHÁC</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>709</x>
+      <y>9</y>
+      <width>281</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,80)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>-1</y>
+       <width>281</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-bottom:2px solid gray;
+background-color:white;
+border-left:2px solid black;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lb_tentk">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black;
+border-left:none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color: rgba(0,0,0,10);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Số thời gian còn lại</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color: rgba(0,0,0,10);</string>
+     </property>
+     <property name="text">
+      <string>Số tiền còn lại</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_dangxuat">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>640</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+color:white;
+border-radius:12px;
+color:white;
+background-color: rgba(0,0,0,10);</string>
+     </property>
+     <property name="text">
+      <string>Đăng Xuất</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_thoigianconlai">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>130</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lb_tienconlai">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>170</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_napthem">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+color:white;
+border-radius:12px;
+color:white;
+background-color: rgba(0,0,0,10);</string>
+     </property>
+     <property name="text">
+      <string>Nạp thêm</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

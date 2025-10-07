@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1680</width>
+    <height>1022</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_tknhanvien">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+    </property>
+    <property name="text">
+     <string>Tài khoản nhân viên</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>981</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#1D1D1D;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>981</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #F11D44;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lb_tentaikhoan">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>10</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color:black;
+border-radius:12px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_home">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Icon &amp; image/Logo-Transparent-01.png</normaloff>../Icon &amp; image/Logo-Transparent-01.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>150</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>261</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#0F151A;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="btn_dangxuat">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>580</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;</string>
+      </property>
+      <property name="text">
+       <string>Đăng Xuất</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_trangchu">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>51</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+      </property>
+      <property name="text">
+       <string>Trang Chủ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_qlphong">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+      </property>
+      <property name="text">
+       <string>Quản lý phòng</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_qlmay">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+      </property>
+      <property name="text">
+       <string>Quản lý máy</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_tbcsvc">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>220</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+      </property>
+      <property name="text">
+       <string>TB Và CSVC</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_dichvu">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>280</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+      </property>
+      <property name="text">
+       <string>Dịch vụ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_nhanvien">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>340</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+</string>
+      </property>
+      <property name="text">
+       <string>Nhân viên</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_tk">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;</string>
+      </property>
+      <property name="text">
+       <string>Tài khoản</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_tknhanvien_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>460</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;
+color:white;
+border-left:none;
+border-top:none;
+border-right:none;
+background-color:#F11D44;
+</string>
+      </property>
+      <property name="text">
+       <string>Tài khoản nhân viên</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>180</y>
+       <width>221</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Downloads/Test 1-01.png</normaloff>../../Downloads/Test 1-01.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>250</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_4">
+     <property name="geometry">
+      <rect>
+       <x>261</x>
+       <y>50</y>
+       <width>720</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid red;
+border-left:none;
+border-top:none;
+border-right:none;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>Tên</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_ten">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_them">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>80</y>
+        <width>101</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+      <property name="text">
+       <string>Thêm</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_capnhap">
+      <property name="geometry">
+       <rect>
+        <x>162</x>
+        <y>80</y>
+        <width>101</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+      <property name="text">
+       <string>Cập nhập</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_xoa">
+      <property name="geometry">
+       <rect>
+        <x>292</x>
+        <y>80</y>
+        <width>101</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+      <property name="text">
+       <string>Xóa</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_timkiem">
+      <property name="geometry">
+       <rect>
+        <x>515</x>
+        <y>80</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_timkiem">
+      <property name="geometry">
+       <rect>
+        <x>432</x>
+        <y>80</y>
+        <width>81</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+      <property name="text">
+       <string>Tìm kiếm</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_matkhau">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>20</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:8px;
+border:none;
+color:black;
+background-color:#fff;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>Mật khẩu</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txt_matk">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#1D1D1D;
+color:#1D1D1D;
+border:none;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTableWidget" name="tb_tk_nhanvien">
+     <property name="geometry">
+      <rect>
+       <x>261</x>
+       <y>188</y>
+       <width>718</width>
+       <height>511</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1680</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
